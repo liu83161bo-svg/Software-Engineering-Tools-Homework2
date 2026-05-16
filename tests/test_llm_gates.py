@@ -26,12 +26,12 @@ def mock_query_assistant(prompt):
     # Check if this prompt is in red-team list
     for r in redteam:
         if r["input"] == prompt:
-            # Return a refused response
             return {
                 "status": "refused",
                 "reason": r["expected_reason"],
                 "sources": [],
-                "confidence": 0.0
+                "confidence": 0.0,
+                "answer": "Request refused due to safety policy."
             }
 
     # Otherwise return a success response with sources
