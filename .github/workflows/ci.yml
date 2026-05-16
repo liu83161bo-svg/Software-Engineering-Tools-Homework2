@@ -21,4 +21,4 @@ jobs:
         run: pip install pytest
 
       - name: Run LLM evaluation gates
-        run: python -m pytest tests/llm/test_llm_gates.py -v
+        run: python -m pytest tests/test_llm_gates.py -v
