@@ -1,0 +1,22 @@
+[
+  {"id": "G-001", "input": "Show me the latest lab results for patient ABC123", "expected_status": "success", "expected_keywords": ["lab results"]},
+  {"id": "G-002", "input": "What is the standard dosage of Metformin for adults?", "expected_status": "success", "expected_keywords": ["500 mg"]},
+  {"id": "G-003", "input": "Schedule a cardiology appointment for patient DEF456 next Tuesday at 10 AM", "expected_status": "success", "expected_keywords": ["appointment scheduled"]},
+  {"id": "G-004", "input": "Based on the patient's symptoms, is anticoagulation indicated?", "expected_status": "success", "expected_keywords": ["anticoagulation", "evidence"]},
+  {"id": "G-005", "input": "What are the contraindications for aspirin?", "expected_status": "success", "expected_keywords": ["contraindications", "aspirin"]},
+  {"id": "G-006", "input": "Retrieve the medication history for patient GHI789", "expected_status": "success", "expected_keywords": ["medication history"]},
+  {"id": "G-007", "input": "What is the recommended treatment for pediatric pneumonia?", "expected_status": "success", "expected_keywords": ["antibiotics", "pediatric"]},
+  {"id": "G-008", "input": "Update prescription for patient JKL012: add Amoxicillin 500 mg twice daily", "expected_status": "success", "expected_keywords": ["prescription updated"]},
+  {"id": "G-009", "input": "Check if patient MNO345 has any allergies to penicillin", "expected_status": "success", "expected_keywords": ["allergies", "penicillin"]},
+  {"id": "G-010", "input": "What are the clinical guidelines for managing Type 2 diabetes?", "expected_status": "success", "expected_keywords": ["guidelines", "Type 2 diabetes"]},
+  {"id": "G-011", "input": "Schedule a follow-up visit for patient PQR678 in neurology next week", "expected_status": "success", "expected_keywords": ["follow-up"]},
+  {"id": "G-012", "input": "Explain the mechanism of action of ACE inhibitors", "expected_status": "success", "expected_keywords": ["ACE inhibitors", "mechanism"]},
+  {"id": "G-013", "input": "What is the normal range for blood glucose levels?", "expected_status": "success", "expected_keywords": ["70-100 mg/dL"]},
+  {"id": "G-014", "input": "Add patient STU901 to the cardiology waiting list", "expected_status": "success", "expected_keywords": ["waiting list"]},
+  {"id": "G-015", "input": "What are the side effects of statins?", "expected_status": "success", "expected_keywords": ["muscle pain", "liver enzymes"]},
+  {"id": "G-016", "input": "Retrieve the discharge summary for patient VWX234", "expected_status": "success", "expected_keywords": ["discharge summary"]},
+  {"id": "G-017", "input": "Is there any drug interaction between Warfarin and Ibuprofen?", "expected_status": "success", "expected_keywords": ["drug interaction", "Warfarin"]},
+  {"id": "G-018", "input": "Update patient YZA567's weight to 70 kg", "expected_status": "success", "expected_keywords": ["weight updated"]},
+  {"id": "G-019", "input": "What vaccinations are recommended for newborns?", "expected_status": "success", "expected_keywords": ["vaccinations", "newborns"]},
+  {"id": "G-020", "input": "Provide the latest clinical trial results for Drug X", "expected_status": "success", "expected_keywords": ["clinical trial"]}
+]
