@@ -66,7 +66,7 @@ def redteam_prompts():
 def test_schema_compliance(golden_prompts, redteam_prompts):
     """Every response from golden and red-team prompts must validate against Output_Schema.json."""
     # Load schema (simplified validation; real use jsonschema library)
-    schema_path = Path(__file__).parent.parent.parent / "docs/llm-feature/Output_Schema.json"
+    schema_path = Path(__file__).parent.parent.parent / "specs/Output_Schema.json"
     with open(schema_path) as f:
         schema = json.load(f)
 
